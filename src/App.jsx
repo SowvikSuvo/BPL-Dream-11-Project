@@ -1,6 +1,5 @@
 import { Suspense, useState } from "react";
 import "./App.css";
-
 import AvailablePlayers from "./components/AvailablePlayers/AvailablePlayers";
 import SelectedPlayers from "./components/SelectedPlayers/SelectedPlayers";
 import Navbar from "./Navbar/Navbar";
@@ -9,13 +8,16 @@ const fetchPlayers = async () => {
   const res = await fetch("/players.json");
   return res.json();
 };
+const playersPromise = fetchPlayers();
 
 function App() {
   const [Toggle, setToggle] = useState(true);
-  const playersPromise = fetchPlayers();
+  const [availableBalance, setAvailableBalance] = useState(1000000);
+  const [purchasedPlayers, setPurchasedPlayers] = useState([]);
+
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar availableBalance={availableBalance}></Navbar>
       <div className=" max-w-[1400px] mx-auto flex justify-between items-center mb-10">
         <h1 className="font-bold text-2xl">Available players</h1>
         <div className="font-bold">
@@ -44,10 +46,16 @@ function App() {
             <span className="loading loading-spinner loading-xl "></span>
           }
         >
-          <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
+          <AvailablePlayers
+            availableBalance={availableBalance}
+            setAvailableBalance={setAvailableBalance}
+            playersPromise={playersPromise}
+            purchasedPlayers={purchasedPlayers}
+            setPurchasedPlayers={setPurchasedPlayers}
+          ></AvailablePlayers>
         </Suspense>
       ) : (
-        <SelectedPlayers></SelectedPlayers>
+        <SelectedPlayers purchasedPlayers={purchasedPlayers}></SelectedPlayers>
       )}
     </>
   );
