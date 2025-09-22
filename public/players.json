@@ -1,0 +1,98 @@
+[
+  {
+    "playerImage": "https://i.ibb.co.com/wFvvdLHX/sakibalhsaan.jpg",
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerRole": "AllRounder",
+    "price": "$500,000",
+    "rating": 9.5
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/Y7NyKDZ0/Andre-Russell.webp",
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerRole": "AllRounder",
+    "price": "$450,000",
+    "rating": 9.2
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/HLktzqhx/Tamim-Iqbal.jpg",
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playerRole": "Batsman",
+    "price": "$380,000",
+    "rating": 8.8
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/DfkYXDxW/Chris-Gayle.jpg",
+    "playerName": "Chris Gayle",
+    "playerCountry": "West Indies",
+    "playerRole": "Batsman",
+    "price": "$400,000",
+    "rating": 8.5
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/KxJNX8K1/Mushfiqur-Rahim.jpg",
+    "playerName": "Mushfiqur Rahim",
+    "playerCountry": "Bangladesh",
+    "playerRole": "WicketkeeperBatsman",
+    "price": "$320,000",
+    "rating": 8.7
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/7JybQR7D/Mahmudullah-Riyad.jpg",
+    "playerName": "Mahmudullah Riyad",
+    "playerCountry": "Bangladesh",
+    "playerRole": "AllRounder",
+    "price": "$300,000",
+    "rating": 8.4
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/BHsgkWVN/Litton-Das.jpg",
+    "playerName": "Litton Das",
+    "playerCountry": "Bangladesh",
+    "playerRole": "Wicketkeeper & Batsman",
+    "price": "$280,000",
+    "rating": 8.2
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/M56MgXgn/Mustafizur-Rahman.jpg",
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playerRole": "Bowler",
+    "price": "$350,000",
+    "rating": 9.0
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/V0WZGHy2/Sunil-Narine.jpg",
+    "playerName": "Sunil Narine",
+    "playerCountry": "West Indies",
+    "playerRole": "AllRounder",
+    "price": "$420,000",
+    "rating": 9.1
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/0p4cvyJk/Dwayne-Bravo.jpg",
+    "playerName": "Dwayne Bravo",
+    "playerCountry": "West Indies",
+    "playerRole": "AllRounder",
+    "price": "$380,000",
+    "rating": 8.9
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/Gb83H0h/Rashid-Khan.jpg",
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerRole": "AllRounder",
+    "price": "$480,000",
+    "rating": 9.6
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/zhndHMx5/Kusal-Mendis.jpg",
+    "playerName": "Kusal Mendis",
+    "playerCountry": "Sri Lanka",
+    "playerRole": "WicketkeeperBatsman",
+    "price": "$250,000",
+    "rating": 8.0
+  }
+]
