@@ -5,7 +5,9 @@
     "playerCountry": "Bangladesh",
     "playerRole": "AllRounder",
     "price": "$500,000",
-    "rating": 9.5
+    "rating": 9.5,
+    "battingHand": "Left-Handed",
+    "bowlingHand": "Slow left-arm orthodox"
   },
   {
     "playerImage": "https://i.ibb.co.com/Y7NyKDZ0/Andre-Russell.webp",
@@ -13,7 +15,9 @@
     "playerCountry": "West Indies",
     "playerRole": "AllRounder",
     "price": "$450,000",
-    "rating": 9.2
+    "rating": 9.2,
+    "battingHand": "Right-Handed",
+    "bowlingHand": "Right-arm fast"
   },
   {
     "playerImage": "https://i.ibb.co.com/HLktzqhx/Tamim-Iqbal.jpg",
@@ -21,7 +25,9 @@
     "playerCountry": "Bangladesh",
     "playerRole": "Batsman",
     "price": "$380,000",
-    "rating": 8.8
+    "rating": 8.8,
+    "battingHand": "Left-Handed",
+    "bowlingHand": "Right-arm off-break"
   },
   {
     "playerImage": "https://i.ibb.co.com/DfkYXDxW/Chris-Gayle.jpg",
@@ -29,15 +35,19 @@
     "playerCountry": "West Indies",
     "playerRole": "Batsman",
     "price": "$400,000",
-    "rating": 8.5
+    "rating": 8.5,
+    "battingHand": "Left-Handed",
+    "bowlingHand": "Right-arm off-break"
   },
   {
     "playerImage": "https://i.ibb.co.com/KxJNX8K1/Mushfiqur-Rahim.jpg",
     "playerName": "Mushfiqur Rahim",
     "playerCountry": "Bangladesh",
-    "playerRole": "WicketkeeperBatsman",
+    "playerRole": "Wicket keeper Batsman",
     "price": "$320,000",
-    "rating": 8.7
+    "rating": 8.7,
+    "battingHand": "Right-Handed",
+    "bowlingHand": "Right-arm off-break"
   },
   {
     "playerImage": "https://i.ibb.co.com/7JybQR7D/Mahmudullah-Riyad.jpg",
@@ -45,15 +55,19 @@
     "playerCountry": "Bangladesh",
     "playerRole": "AllRounder",
     "price": "$300,000",
-    "rating": 8.4
+    "rating": 8.4,
+    "battingHand": "Right-Handed",
+    "bowlingHand": "Right-arm off-break"
   },
   {
     "playerImage": "https://i.ibb.co.com/BHsgkWVN/Litton-Das.jpg",
     "playerName": "Litton Das",
     "playerCountry": "Bangladesh",
-    "playerRole": "Wicketkeeper & Batsman",
+    "playerRole": "Wicket keeper Batsman",
     "price": "$280,000",
-    "rating": 8.2
+    "rating": 8.2,
+    "battingHand": "Right-Handed",
+    "bowlingHand": "Right-arm off-break"
   },
   {
     "playerImage": "https://i.ibb.co.com/M56MgXgn/Mustafizur-Rahman.jpg",
@@ -61,7 +75,9 @@
     "playerCountry": "Bangladesh",
     "playerRole": "Bowler",
     "price": "$350,000",
-    "rating": 9.0
+    "rating": 9.0,
+    "battingHand": "Left-Handed",
+    "bowlingHand": "Left-arm fast-medium"
   },
   {
     "playerImage": "https://i.ibb.co.com/V0WZGHy2/Sunil-Narine.jpg",
@@ -69,7 +85,9 @@
     "playerCountry": "West Indies",
     "playerRole": "AllRounder",
     "price": "$420,000",
-    "rating": 9.1
+    "rating": 9.1,
+    "battingHand": "Left-Handed",
+    "bowlingHand": "Right-arm off-break"
   },
   {
     "playerImage": "https://i.ibb.co.com/0p4cvyJk/Dwayne-Bravo.jpg",
@@ -77,7 +95,9 @@
     "playerCountry": "West Indies",
     "playerRole": "AllRounder",
     "price": "$380,000",
-    "rating": 8.9
+    "rating": 8.9,
+    "battingHand": "Right-Handed",
+    "bowlingHand": "Right-arm medium-fast"
   },
   {
     "playerImage": "https://i.ibb.co.com/Gb83H0h/Rashid-Khan.jpg",
@@ -85,7 +105,9 @@
     "playerCountry": "Afghanistan",
     "playerRole": "AllRounder",
     "price": "$480,000",
-    "rating": 9.6
+    "rating": 9.6,
+    "battingHand": "Right-Handed",
+    "bowlingHand": "Right-arm leg-break googly"
   },
   {
     "playerImage": "https://i.ibb.co.com/zhndHMx5/Kusal-Mendis.jpg",
@@ -93,6 +115,8 @@
     "playerCountry": "Sri Lanka",
     "playerRole": "WicketkeeperBatsman",
     "price": "$250,000",
-    "rating": 8.0
+    "rating": 8.0,
+    "battingHand": "Right-Handed",
+    "bowlingHand": "Right-arm leg-break"
   }
 ]
