@@ -19,6 +19,10 @@ const PlayerCard = ({
       alert("Not enough Coins!!!");
       return;
     }
+    if (purchasedPlayers.length === 6) {
+      alert("6 players already selected");
+      return;
+    }
     setIsSelected(true);
     setAvailableBalance(availableBalance - playerPrice);
     setPurchasedPlayers([...purchasedPlayers, playerData]);

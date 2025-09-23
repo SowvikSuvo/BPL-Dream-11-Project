@@ -1,8 +1,10 @@
 import { Suspense, useState } from "react";
 import "./App.css";
+
 import AvailablePlayers from "./components/AvailablePlayers/AvailablePlayers";
 import SelectedPlayers from "./components/SelectedPlayers/SelectedPlayers";
 import Navbar from "./Navbar/Navbar";
+import Banner from "./components/Banner/Banner";
 
 const fetchPlayers = async () => {
   const res = await fetch("/players.json");
@@ -12,7 +14,7 @@ const playersPromise = fetchPlayers();
 
 function App() {
   const [Toggle, setToggle] = useState(true);
-  const [availableBalance, setAvailableBalance] = useState(2500000);
+  const [availableBalance, setAvailableBalance] = useState(3500000);
   const [purchasedPlayers, setPurchasedPlayers] = useState([]);
 
   const removePlayer = (p) => {
@@ -29,11 +31,12 @@ function App() {
   return (
     <>
       <Navbar availableBalance={availableBalance}></Navbar>
+      <Banner></Banner>
       <div className=" max-w-[1400px] mx-auto flex justify-between items-center mb-10">
         <h1 className="font-bold text-2xl">
           {Toggle === true
             ? "Available players"
-            : `Selected Player(${purchasedPlayers.length}/7)`}
+            : `Selected Player(${purchasedPlayers.length}/6)`}
         </h1>
         <div className="font-bold">
           <button
@@ -73,6 +76,7 @@ function App() {
         <SelectedPlayers
           removePlayer={removePlayer}
           purchasedPlayers={purchasedPlayers}
+          setToggle={setToggle}
         ></SelectedPlayers>
       )}
     </>

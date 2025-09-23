@@ -22,7 +22,9 @@ const SelectedCard = ({ player, removePlayer }) => {
       <div onClick={handleRemove}>
         <img src="https://i.ibb.co.com/8DPw68K1/Frame.png" alt="" />
       </div>
+      
     </div>
+    
   );
 };
 
